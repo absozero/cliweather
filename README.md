@@ -6,7 +6,7 @@
 ![GitHub all releases](https://img.shields.io/github/downloads/absozero/cliweather/total?style=flat-square)
 
 Having to check a website for your weather could be sucky, depending on your mood. To check multiple, to cross reference and get accurate weather, even worse. To solve this problem, :sparkle:cliweather was made. :sparkle:
-For the geeks out there, you can view the weather just from the cli, and for selfhosters, you can host a web ui of the app, and see it in a browser, all locally, except the calls to external weather api's. For people who just want to see the weather, both of these options are easy to get set up with.
+For the geeks out there, you can view the weather just from the cli, and for selfhosters, you can host a web ui of the app, and see it in a browser, all locally, except the calls to external weather api's. For people who just want to see the weather, both of these options are easy to get set up with. No tracking and open source.
 
 
 ## Installation
@@ -65,4 +65,4 @@ To make a pull request:
 
 <!-- Markdown link & img dfn's -->
 
-[wiki]: https://absozero.github.io/cliweather
+[Docs](https://absozero.github.io/cliweather)
