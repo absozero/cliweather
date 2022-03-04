@@ -2,6 +2,15 @@ import argparse
 import click
 import requests
 
+import click
 
-class usweather():
-    usweather.url = 
+
+@click.command()
+def hello():
+    click.echo('Hello World!')
+
+usweath = requests.get("https://api.weather.gov/")
+
+
+
+
