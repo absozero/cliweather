@@ -5,6 +5,8 @@ name = "pypi"
 
 [packages]
 requests = "*"
+rich = "*"
+click = "*"
 
 [dev-packages]
 micropipenv = "*"
