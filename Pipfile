@@ -10,6 +10,7 @@ click = "*"
 
 [dev-packages]
 micropipenv = "*"
+click = "*"
 
 [requires]
 python_version = "3.10"
