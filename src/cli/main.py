@@ -1,14 +1,13 @@
-import argparse
 import requests
-
+import sys
 import click
 
 
+usweath = requests.get("https://api.weather.gov/")
+
 @click.command()
 def hello():
-    click.echo('Hello World!')
-
-usweath = requests.get("https://api.weather.gov/")
+    click.echo(usweath.json())
 
 if __name__ == '__main__':
     hello()
