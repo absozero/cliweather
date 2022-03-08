@@ -5,7 +5,7 @@ import click
 
 weath_gov = "https://api.weather.gov/"
 
-usweath = requests.get(weaht_gov)
+usweath = requests.get(weath_gov)
 
 @click.command()
 def hello():
