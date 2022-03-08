@@ -1,8 +1,10 @@
 import requests
 import click
 import json
+import sys
 
-@click.command(weather, args=LOCATION)
+@click.command('weather', args=LOCATION, help="Weather command to answer to the LOCATION query")
+
 
 class(API_URL):
     weather = requests.get(API_URL)
