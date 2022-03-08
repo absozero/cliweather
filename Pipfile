@@ -5,7 +5,6 @@ name = "pypi"
 
 [packages]
 requests = "*"
-rich = "*"
 click = "*"
 
 [dev-packages]
@@ -13,4 +12,4 @@ micropipenv = "*"
 click = "*"
 
 [requires]
-python_version = "3.10"
+python_version = "3"
