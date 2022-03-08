@@ -3,7 +3,9 @@ import sys
 import click
 
 
-usweath = requests.get("https://api.weather.gov/")
+weath_gov = "https://api.weather.gov/"
+
+usweath = requests.get(weaht_gov)
 
 @click.command()
 def hello():
