@@ -9,7 +9,7 @@ usweath = requests.get(weath_gov)
 
 @click.command()
 def hello():
-    click.echo(usweath.json())
+    click.secho(usweath.json(), fg='green')
 
 if __name__ == '__main__':
     hello()
