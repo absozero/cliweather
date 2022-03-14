@@ -9,7 +9,7 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'cliw=src.main:main',
+            'cliw=main.py:main',
         ],
     },
 )
