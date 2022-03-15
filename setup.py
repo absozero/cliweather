@@ -1,4 +1,4 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 setup(
     name='Cliweather',
@@ -9,7 +9,7 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'cliw=main.py:main',
+            'cliw=cliweather.cli:main',
         ],
     },
 )

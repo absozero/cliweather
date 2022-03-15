@@ -8,11 +8,11 @@ weath_gov = "https://api.weather.gov/"
 usweath = requests.get(weath_gov)
 
 
-@click.command()
+@click.group()
 def main():
-    click.secho("hello", fg='blue')
+    pass
 
-@click.command()
+@main.command()
 def us():
     click.secho(usweath.json(), fg='green')
 
