@@ -6,6 +6,7 @@ name = "pypi"
 [packages]
 requests = "*"
 click = "*"
+cliweather = {path = "."}
 
 [dev-packages]
 micropipenv = "*"

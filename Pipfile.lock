@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "d69a9fddb65345d228f4a8a5cef5b35b2103fd47d7be5ab984fcfd8e52a0c610"
+            "sha256": "c7312505c060e00406e734c733006f93e8228f1c2d7cd32862585685ec80fb71"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -38,6 +38,10 @@
             ],
             "index": "pypi",
             "version": "==8.0.4"
+        },
+        "cliweather": {
+            "path": ".",
+            "version": "==0.1.0"
         },
         "idna": {
             "hashes": [
