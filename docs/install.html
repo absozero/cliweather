@@ -113,7 +113,7 @@
                         <a href="https://github.com/absozero/cliweather" title="Git repository" aria-label="Git repository">
                             <i id="git-repository-button" class="fa fa-github"></i>
                         </a>
-                        <a href="https://github.com/absozero/cliweather/edit/docs/src/install.md" title="Suggest an edit" aria-label="Suggest an edit">
+                        <a href="https://github.com/absozero/cliweather/blob/docs/src/install.md" title="Suggest an edit" aria-label="Suggest an edit">
                             <i id="git-edit-button" class="fa fa-edit"></i>
                         </a>
                     </div>
@@ -177,7 +177,7 @@ python -m venv venv
 . venv/bin/activate
 </code></pre>
 <ol start="5">
-<li>Setuptools is required to install the bot, and it is generally given with every distribution of python, but if it isn't, use the following to see how to install setuptools before the bot to install this tool</li>
+<li>Setuptools is required to install the bot<sup class="footnote-reference"><a href="#note">1</a></sup>, and it is generally given with every distribution of python, but if it isn't, use the following to see how to install setuptools before the bot to install this tool</li>
 </ol>
 <pre><code class="language-bash editable">pip install setuptools
 pip install .
@@ -186,6 +186,9 @@ pip install .
 <pre><code class="language-bash editable">cliw
 </code></pre>
 <p><strong>Now, you are finished with the installation of cliweather</strong></p>
+<div class="footnote-definition" id="note"><sup class="footnote-definition-label">1</sup>
+<p>Setuptools not being installed will render the setup.py file used with pip to not work at all, and packages have to be installed manually and the code has to be changed to accomodate for this.</p>
+</div>
 
                     </main>
 

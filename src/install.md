@@ -35,7 +35,7 @@ venv/Scripts/(activate.cmd)/(activate.ps1)
  or
 . venv/bin/activate
 ```
-5. Setuptools is required to install the bot, and it is generally given with every distribution of python, but if it isn't, use the following to see how to install setuptools before the bot to install this tool
+5. Setuptools is required to install the bot[^note], and it is generally given with every distribution of python, but if it isn't, use the following to see how to install setuptools before the bot to install this tool
 ```bash,editable
 pip install setuptools
 pip install .
@@ -47,3 +47,5 @@ cliw
 ```
 
 **Now, you are finished with the installation of cliweather**
+
+[^note]: Setuptools not being installed will render the setup.py file used with pip to not work at all, and packages have to be installed manually and the code has to be changed to accomodate for this.

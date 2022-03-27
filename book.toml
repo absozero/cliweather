@@ -20,7 +20,7 @@ site-url = "/cliweather/"
 preferred-dark-theme = "navy"
 git-repository-url = "https://github.com/absozero/cliweather"
 git-repository-icon = "fa-github"
-edit-url-template = "https://github.com/absozero/cliweather/edit/docs/{path}"
+edit-url-template = "https://github.com/absozero/cliweather/blob/docs/{path}"
 no-section-label = true
 
 [output.html.search]
@@ -28,8 +28,6 @@ enable = true
 limit-results = 40
 teaser-word-count = 30
 expand = true
-
-
 
 [build]
 build-dir = "docs"
