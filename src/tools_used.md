@@ -2,7 +2,7 @@
 
 In the project, there are multiple tools used; they are as following
 
-## [Requests](https://docs.python-requests.org/)):
+## [Requests](https://docs.python-requests.org/)
 
 Used to connect with API's and gather the data necessary in order to display the data
 
