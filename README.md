@@ -11,30 +11,18 @@ For the geeks out there, you can view the weather just from the cli, and for sel
 
 ## Installation
 First [install the python interpreter](https://docs.python.org/3/using/index.html)(*required*)
-1. Clone the repository
-```bash
-gh repo clone absozero/cliweather
-or
-git clone https://github.com/absozero/cliweather.git
-```
-2. Get into the folder by using `cd cliweather`
-3. Then, create a virtual environment(Basically, it isolates packages from the rest of the system) by using
-```
-python3 -m venv venv
-or
-python -m venv venv
-```
-4. Then initialize the environment with the scripts given in the venv/Scripts or the venv/bin folder. You may have to use `. venv/bin/activate` on mac and linux
-5.  You can use pipenv, which is recommended for the project, or you could also use the requirements.txt given. It can be used with this:
-```bash
-pipenv:
-pipenv install
-pip:
-pip install -r requirements.txt
-```
-Then, you run the actual program, inside your virtual environment.
-`python(3) main.py`
 
+To install, you can use pip;
+```bash
+pip install git+https://github.com/absozero/cliweather.git
+```
+**Make sure setuptools is installed or the install won't work**
+
+```bash
+pip install setuptools
+```
+
+For a more detailed explanation, check [the website.](https://absozero.github.io/cliweather)
 ## Changelog/Roadmap
 
  - [ ] Make a web ui
