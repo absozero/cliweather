@@ -3,7 +3,9 @@
 ## Changelog/Roadmap
 
  - [ ] Make a web ui
- - [ ] Figuring out packaging formats
+ - [X] Figuring out packaging formats
  - [ ] Setup multiple api's
+  - [ ] Use us weather api
+  - [ ] Try to find a weather aggregator.
  - [ ] Make a tui
  - [ ] Get a working prototype going

@@ -145,10 +145,14 @@
 <ul>
 <li><input disabled="" type="checkbox"/>
 Make a web ui</li>
-<li><input disabled="" type="checkbox"/>
+<li><input disabled="" type="checkbox" checked=""/>
 Figuring out packaging formats</li>
 <li><input disabled="" type="checkbox"/>
 Setup multiple api's</li>
+<li><input disabled="" type="checkbox"/>
+Use us weather api</li>
+<li><input disabled="" type="checkbox"/>
+Try to find a weather aggregator.</li>
 <li><input disabled="" type="checkbox"/>
 Make a tui</li>
 <li><input disabled="" type="checkbox"/>
@@ -181,6 +185,20 @@ Get a working prototype going</li>
 
         </div>
 
+        <!-- Livereload script (if served using the cli tool) -->
+        <script type="text/javascript">
+            var socket = new WebSocket("ws://localhost:3000/__livereload");
+            socket.onmessage = function (event) {
+                if (event.data === "reload") {
+                    socket.close();
+                    location.reload();
+                }
+            };
+
+            window.onbeforeunload = function() {
+                socket.close();
+            }
+        </script>
         <script type="text/javascript">
             window.playground_line_numbers = true;
         </script>
