@@ -6,10 +6,12 @@ name = "pypi"
 [packages]
 requests = "*"
 click = "*"
-cliweather = {path = "."}
+rich = "*"
 
 [dev-packages]
 micropipenv = "*"
+pytest = "*"
+pylint = "*"
 
 [requires]
 python_version = "3"
