@@ -1,6 +1,6 @@
 import requests
 import click
-
+import json
 
 weath_gov = "https://api.weather.gov/"
 
