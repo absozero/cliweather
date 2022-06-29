@@ -1,3 +1,11 @@
+# ATTENTION!
+# THIS REPOSITORY WILL BECOME UNMAINTAINED AND AS OF NOW IS DEPRECATED.
+This is in favor of tools like wttr.in and wego(chceck their github!), and if this project is reinitialized in the future, it will likely become a client for the wttr.in service or
+another open source weather system.
+
+
+
+
 # [Cliweather](https://absozero.github.io/cliweather):cloud:
 > The weather app that is free and open source, can use multiple providers, and runs in the command line and a web interface..
 
