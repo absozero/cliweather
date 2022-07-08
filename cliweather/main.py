@@ -2,7 +2,7 @@ import requests
 import click
 
 
-weath_gov = "https://api.weather.gov/"
+weath_gov = "http://127.0.0.1:3000"
 
 usweath = requests.get(weath_gov)
 
